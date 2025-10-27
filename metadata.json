@@ -1,0 +1,5 @@
+{
+  "name": "School Cashier Pro",
+  "description": "A professional web-based cashier application for schools to manage student payments in an organized and auditable system. Features include a real-time dashboard, complete student data management, a multi-step transaction module, and comprehensive reporting.",
+  "requestFramePermissions": []
+}

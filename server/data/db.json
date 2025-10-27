@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "admin",
+      "password": "$2b$10$L4FQvoyVP2bJoJb1zf3Zx.Qp06B8ciCdlv/eIdkiNp1jsSLpZmTVO",
+      "nama": "Siti Nurhaliza",
+      "role": "admin"
+    },
+    {
+      "id": "user-2",
+      "username": "manager",
+      "password": "$2b$10$r66eB4TUOLszNlnLnlqXp.sUPVqRJ8..opaGyCz0SJLvAANyV8OmG",
+      "nama": "Manager Sekolah",
+      "role": "manager"
+    },
+    {
+      "id": "user-3",
+      "username": "kasir",
+      "password": "$2b$10$9oAR0h/nldZ7KrLN4npMQ.AYbstQnkJcK6LCOIpb3MzaeZP4S1F56",
+      "nama": "Budi Santoso",
+      "role": "kasir"
+    },
+    {
+      "id": "user-4",
+      "username": "testuser",
+      "password": "$2b$10$gUGgWVYvR7/gqHXzybe1hOsHjzMtWocGjfDgAq3kdKEIRlJKJ2.iO",
+      "nama": "Test User",
+      "role": "kasir"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-1",
+      "nis": "2024010001",
+      "nama": "Ahmad Rizki Pratama",
+      "kelas": "XI-IPA-1",
+      "noTelpWali": "081234567890",
+      "emailWali": "wali.ahmad@email.com",
+      "alamat": "Jl. Merdeka No. 10, Jakarta",
+      "fotoUrl": "https://picsum.photos/seed/student1/200",
+      "createdAt": "2023-01-15T10:00:00Z",
+      "updatedAt": "2023-01-15T10:00:00Z"
+    },
+    {
+      "id": "student-2",
+      "nis": "2024010002",
+      "nama": "Bunga Citra Lestari",
+      "kelas": "XII-A",
+      "noTelpWali": "082345678901",
+      "emailWali": "wali.bunga@email.com",
+      "alamat": "Jl. Pahlawan No. 25, Bandung",
+      "fotoUrl": "https://picsum.photos/seed/student2/200",
+      "createdAt": "2023-02-20T11:00:00Z",
+      "updatedAt": "2023-02-20T11:00:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "trx-1",
+      "transactionCode": "TRX-20251021-0001",
+      "studentId": "student-1",
+      "studentName": "Ahmad Rizki Pratama",
+      "studentNis": "2024010001",
+      "studentKelas": "XI-IPA-1",
+      "items": [
+        {
+          "jenisPembayaran": "SPP",
+          "deskripsi": "Oktober 2025",
+          "nominal": 550000
+        }
+      ],
+      "subtotal": 550000,
+      "diskon": 0,
+      "total": 550000,
+      "metodePembayaran": "Tunai",
+      "uangDiterima": 550000,
+      "kembalian": 0,
+      "status": "Lunas",
+      "kasir": "Siti Nurhaliza",
+      "createdAt": "2024-07-20T17:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "namaSekolah": "SMK NEGERI 1 CONTOH",
+    "alamat": "Jl. Pendidikan No. 123, Jakarta",
+    "telepon": "(021) 12345678",
+    "logoUrl": "https://picsum.photos/seed/logo/200",
+    "tahunAjaran": "2024/2025",
+    "nominalSPP": {
+      "X": 500000,
+      "XI": 550000,
+      "XII": 600000
+    }
+  }
+}
